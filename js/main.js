@@ -180,8 +180,6 @@ createRestaurantHTML = (restaurant) => {
   more.href = DBHelper.urlForRestaurant(restaurant);
   more.tabIndex = '4';
   
-
-
   li.append(more)
 
   return li
@@ -200,7 +198,6 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     }
     self.markers.push(marker);
   });
-
 } 
 /* addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
@@ -213,3 +210,16 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 } */
 
+
+
+if('serviceWorker' in navigator){
+  navigator.serviceWorker
+  .register('/serviceWorker.js')
+  .catch(function(eer){
+    console.error(err);
+    console.log('working');
+  
+  });
+}else{
+  console.log('not working');
+}
