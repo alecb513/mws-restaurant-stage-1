@@ -9,7 +9,6 @@ body,td,th,p{
 }
 body {
   /* background-color: #fdfdfd; */
-  background-color: red;
 	margin: 0;
   width: 100%;
   display: flex;
@@ -284,4 +283,9 @@ nav h1 a {
 img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  display: flex;
+  
 }
