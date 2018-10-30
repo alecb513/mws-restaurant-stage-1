@@ -210,7 +210,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 } */
 
-/*
+
 
 if('serviceWorker' in navigator){
   navigator.serviceWorker
@@ -221,4 +221,3 @@ if('serviceWorker' in navigator){
 }
 
 
-*/
