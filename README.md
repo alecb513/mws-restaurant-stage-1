@@ -1,10 +1,10 @@
 # MWS Restaurant Stage 1
 
 ## Dependency
-Mapbox API
-unpkg
-normalize-css
-pyhon
+Mapbox API,
+unpkg,
+normalize-css,
+pyhon,
 
 ## Description 
 
